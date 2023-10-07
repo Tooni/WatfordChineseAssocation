@@ -1,39 +1,43 @@
 import "@mantine/core/styles.css";
-import { AppShell, Center, Container, MantineProvider } from "@mantine/core";
+import "./App.module.css";
+import { AppShell, Container, MantineProvider } from "@mantine/core";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
 import { FunctionComponent } from "react";
 import { Header } from "./header/Header";
-import { Home } from "./home/Home";
-import { Contact } from "./contact/Contact";
-import { About } from "./about/About";
-import { News } from "./news/News";
+import { Footer } from "./footer/Footer";
+import { Home } from "./pages/home/Home";
+import { Contact } from "./pages/contact/Contact";
+import { About } from "./pages/about/About";
+import { NoMatch } from "./pages/no-match/NoMatch";
+import { News } from "./pages/news/News";
 
-const APP_MAX_WIDTH = 1200;
+export const APP_MAX_WIDTH = 1200;
+export const APP_HEADER_HEIGHT = 80;
 
 export const App: FunctionComponent = () => {
   return (
     <BrowserRouter>
       <MantineProvider theme={theme}>
-        <AppShell header={{ height: 80 }} padding="md">
+        <AppShell header={{ height: APP_HEADER_HEIGHT }} padding="md">
           <AppShell.Header p="lg">
-            <Container>
+            <Container maw={APP_MAX_WIDTH}>
               <Header />
             </Container>
           </AppShell.Header>
 
-          <Center>
+          <Container maw={APP_MAX_WIDTH} p={0}>
             <AppShell.Main>
-              <Container miw={APP_MAX_WIDTH}>
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="contact" element={<Contact />} />
-                  <Route path="about" element={<About />} />
-                  <Route path="news" element={<News />} />
-                </Routes>
-              </Container>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="about" element={<About />} />
+                <Route path="news" element={<News />} />
+                <Route path="*" element={<NoMatch/>} />
+              </Routes>
+              <Footer />
             </AppShell.Main>
-          </Center>
+          </Container>
         </AppShell>
       </MantineProvider>
     </BrowserRouter>
