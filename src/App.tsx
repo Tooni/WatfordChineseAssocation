@@ -9,7 +9,6 @@ import { Footer } from "./footer/Footer";
 import { Home } from "./pages/home/Home";
 import { Contact } from "./pages/contact/Contact";
 import { About } from "./pages/about/About";
-import { NoMatch } from "./pages/no-match/NoMatch";
 import { News } from "./pages/news/News";
 import { APP_HEADER_HEIGHT, APP_MAX_WIDTH } from "./constants";
 
@@ -31,7 +30,6 @@ export const App: FunctionComponent = () => {
                 <Route path="contact" element={<Contact />} />
                 <Route path="about" element={<About />} />
                 <Route path="news" element={<News />} />
-                <Route path="*" element={<NoMatch/>} />
               </Routes>
               <Footer />
             </AppShell.Main>
