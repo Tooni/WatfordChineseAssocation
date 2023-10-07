@@ -22,7 +22,6 @@ export const App: FunctionComponent = () => {
               <Header />
             </Container>
           </AppShell.Header>
-
           <Container maw={APP_MAX_WIDTH} p={0}>
             <AppShell.Main>
               <Routes>
