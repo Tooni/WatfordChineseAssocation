@@ -1,7 +1,7 @@
 import "@mantine/core/styles.css";
 import "./App.module.css";
 import { AppShell, Container, MantineProvider } from "@mantine/core";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
 import { FunctionComponent } from "react";
 import { Header } from "./header/Header";
@@ -14,7 +14,7 @@ import { APP_HEADER_HEIGHT, APP_MAX_WIDTH } from "./constants";
 
 export const App: FunctionComponent = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <MantineProvider theme={theme}>
         <AppShell header={{ height: APP_HEADER_HEIGHT }} padding="md">
           <AppShell.Header p="lg">
@@ -36,6 +36,6 @@ export const App: FunctionComponent = () => {
           </Container>
         </AppShell>
       </MantineProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
