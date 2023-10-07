@@ -1,5 +1,3 @@
-# Mantine Vite template
+# Watford Chinese Assocation Website
 
-Get started with the template by clicking `Use this template` button on the top of the page.
-
-[Documentation](https://mantine.dev/guides/vite/)
+Run locally with `pnpm dev`
