@@ -27,6 +27,7 @@
     "postcss": "^8.4.24",
     "postcss-preset-mantine": "1.8.0",
     "postcss-simple-vars": "^7.0.1",
+    "react-router-dom": "^6.16.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.2"
   }
