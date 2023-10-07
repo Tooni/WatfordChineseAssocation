@@ -1,0 +1,1 @@
+export const getTitle = (t?: string) => `Watford Chinese Association${t? `: ${t}` : ''}`;
