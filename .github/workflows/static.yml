@@ -44,7 +44,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+        run: pnpm lint
       - name: Build
         run: pnpm build
       - name: Setup Pages
