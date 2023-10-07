@@ -36,8 +36,6 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -45,6 +43,8 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
+      - name: Run ESLint
+        run: eslint . --ext .js,.jsx,.ts,.tsx
       - name: Build
         run: pnpm build
       - name: Setup Pages
