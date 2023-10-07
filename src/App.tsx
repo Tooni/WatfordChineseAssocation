@@ -11,9 +11,7 @@ import { Contact } from "./pages/contact/Contact";
 import { About } from "./pages/about/About";
 import { NoMatch } from "./pages/no-match/NoMatch";
 import { News } from "./pages/news/News";
-
-export const APP_MAX_WIDTH = 1200;
-export const APP_HEADER_HEIGHT = 80;
+import { APP_HEADER_HEIGHT, APP_MAX_WIDTH } from "./constants";
 
 export const App: FunctionComponent = () => {
   return (
