@@ -8,7 +8,7 @@ export const Home: FunctionComponent = () => {
   }, []);
   return (
     <Text>
-      Home Page!!!
+      Home Page!
     </Text>
   );
 };
