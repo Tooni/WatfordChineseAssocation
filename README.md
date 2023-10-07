@@ -2,4 +2,4 @@
 
 Run locally with `pnpm dev`
 
-Deploys to https://watfordchineseassociation.co.uk/
+Deploys to watfordchineseassociation (dot) co (dot) uk
