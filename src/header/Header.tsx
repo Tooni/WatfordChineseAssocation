@@ -6,7 +6,7 @@ import { Logo } from "./Logo";
 export const Header: FunctionComponent = () => {
   return (
     <>
-      <Group p="lg" bg="red.8" justify="space-between">
+      <Group mx="-sm" p="lg" bg="red.8" justify="space-between">
         <Logo />
         <Group align="center">
           <HeaderButton label="Home" to="/" />
@@ -14,7 +14,7 @@ export const Header: FunctionComponent = () => {
           <HeaderButton label="Contact" to="/contact" />
         </Group>
       </Group>
-      <Divider mb="lg" />
+      <Divider mx="-sm" mb="lg" />
     </>
   );
 };

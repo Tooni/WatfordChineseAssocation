@@ -15,7 +15,7 @@ export const App: FunctionComponent = () => {
     <HashRouter>
       <MantineProvider theme={theme}>
         <AppShell>
-          <Container maw={APP_MAX_WIDTH} p={0}>
+          <Container maw={APP_MAX_WIDTH} py={0} px="sm">
             <AppShell.Main>
               <Header />
               <Routes>
