@@ -1,5 +1,4 @@
 import "@mantine/core/styles.css";
-import "./App.module.css";
 import { AppShell, Container, MantineProvider } from "@mantine/core";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
