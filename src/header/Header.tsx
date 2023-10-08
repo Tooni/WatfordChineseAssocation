@@ -28,7 +28,7 @@ const HeaderButton: FunctionComponent<HeaderButtonProps> = ({ to, label }) => {
   const isActive = location.pathname === to;
   return (
     <Button
-      size="md"
+      size="compact-md"
       component={Link}
       to={to}
       variant="filled"
