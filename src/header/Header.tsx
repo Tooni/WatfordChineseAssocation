@@ -1,40 +1,42 @@
-import { Group, Button } from "@mantine/core";
-import { FunctionComponent, ReactNode } from "react";
+import { Group, Button, Text, Divider } from "@mantine/core";
+import { FunctionComponent } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Logo } from "./Logo";
 
 export const Header: FunctionComponent = () => {
   return (
-    <Group justify="space-between">
-      <Logo />
-      <Group align="center">
-        <HeaderButton to="/">Home</HeaderButton>
-        <HeaderButton to="/about">About</HeaderButton>
-        <HeaderButton to="/news">News</HeaderButton>
-        <HeaderButton to="/contact">Contact</HeaderButton>
+    <>
+      <Group p="lg" bg="red.8" justify="space-between">
+        <Logo />
+        <Group align="center">
+          <HeaderButton label="Home" to="/" />
+          <HeaderButton label="News" to="/news" />
+          <HeaderButton label="Contact" to="/contact" />
+        </Group>
       </Group>
-    </Group>
+      <Divider mb="lg" />
+    </>
   );
 };
 
 interface HeaderButtonProps {
   to: `/${string}`;
-  children: ReactNode;
+  label: string;
 }
-const HeaderButton: FunctionComponent<HeaderButtonProps> = ({
-  to,
-  children,
-}) => {
+const HeaderButton: FunctionComponent<HeaderButtonProps> = ({ to, label }) => {
   const location = useLocation();
   const isActive = location.pathname === to;
   return (
     <Button
+      size="md"
       component={Link}
       to={to}
-      variant={isActive ? "filled" : "outline"}
-      color={isActive ? "red" : "gray"}
+      variant="filled"
+      bg={isActive ? "gray.3" : "red"}
     >
-      {children}
+      <Text size="lg" fw={700} c={isActive ? "red" : "gray.2"}>
+        {label}
+      </Text>
     </Button>
   );
 };
