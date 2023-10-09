@@ -1,23 +1,26 @@
-import { Group, Button, Text, Divider } from "@mantine/core";
+import { Group, Button, Text, Divider, Box, Container } from "@mantine/core";
 import { FunctionComponent } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Logo } from "./Logo";
+import { APP_MAX_WIDTH } from "../constants";
 
 export const Header: FunctionComponent = () => {
   return (
-    <>
-      <Group mx="-sm" p="lg" bg="red.8" justify="space-between">
-        <Logo />
-        <Group align="center">
-          <HeaderButton label="Home" to="/" />
-          <HeaderButton label="About" to="/about" />
-          <HeaderButton label="News" to="/news" />
-          <HeaderButton label="Contact" to="/contact" />
-          <HeaderButton label="Location" to="/location" />
+    <Box bg="red.8">
+      <Container maw={APP_MAX_WIDTH}>
+        <Group py="lg" justify="space-between">
+          <Logo />
+          <Group align="center">
+            <HeaderButton label="Home" to="/" />
+            <HeaderButton label="About" to="/about" />
+            <HeaderButton label="News" to="/news" />
+            <HeaderButton label="Contact" to="/contact" />
+            <HeaderButton label="Location" to="/location" />
+          </Group>
         </Group>
-      </Group>
-      <Divider mx="-sm" mb="lg" />
-    </>
+      </Container>
+      <Divider />
+    </Box>
   );
 };
 
