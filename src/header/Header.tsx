@@ -10,8 +10,10 @@ export const Header: FunctionComponent = () => {
         <Logo />
         <Group align="center">
           <HeaderButton label="Home" to="/" />
+          <HeaderButton label="About" to="/about" />
           <HeaderButton label="News" to="/news" />
           <HeaderButton label="Contact" to="/contact" />
+          <HeaderButton label="Location" to="/location" />
         </Group>
       </Group>
       <Divider mx="-sm" mb="lg" />

@@ -2,9 +2,9 @@ import { Text } from "@mantine/core";
 import { FunctionComponent, useEffect } from "react";
 import { getTitle } from "../../util/getTitle";
 
-export const Home: FunctionComponent = () => {
+export const About: FunctionComponent = () => {
   useEffect(() => {
-    document.title = getTitle();
+    document.title = getTitle("About");
   }, []);
-  return <Text>Home page!</Text>;
+  return <Text>About page!</Text>;
 };

@@ -6,5 +6,5 @@ export const News: FunctionComponent = () => {
   useEffect(() => {
     document.title = getTitle("News");
   }, []);
-  return <Text>News</Text>;
+  return <Text>News page!</Text>;
 };
