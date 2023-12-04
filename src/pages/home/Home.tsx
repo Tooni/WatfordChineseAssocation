@@ -1,10 +1,12 @@
 import { Text } from "@mantine/core";
-import { FunctionComponent, useEffect } from "react";
-import { getTitle } from "../../util/getTitle";
+import { FunctionComponent } from "react";
+import { SetDocumentTitle } from "../../set-document-title/SetDocumentTitle";
 
 export const Home: FunctionComponent = () => {
-  useEffect(() => {
-    document.title = getTitle();
-  }, []);
-  return <Text>Home page!</Text>;
+  return (
+    <>
+      <SetDocumentTitle title="Location" />
+      <Text>Home</Text>
+    </>
+  );
 };
