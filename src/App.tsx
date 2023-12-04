@@ -1,5 +1,5 @@
 import "@mantine/core/styles.css";
-import { AppShell, Container, MantineProvider } from "@mantine/core";
+import { AppShell, MantineProvider } from "@mantine/core";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
 import { FunctionComponent } from "react";
@@ -18,18 +18,22 @@ export const App: FunctionComponent = () => {
       <MantineProvider theme={theme}>
         <AppShell bg="gray.2">
           <Header />
-          <Container maw={APP_MAX_WIDTH} bg="gray.1" p="sm">
-            <AppShell.Main>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="about" element={<About />} />
-                <Route path="location" element={<Location />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="news" element={<News />} />
-              </Routes>
-              <Footer />
-            </AppShell.Main>
-          </Container>
+          <AppShell.Main
+            ml="auto"
+            mr="auto"
+            maw={APP_MAX_WIDTH}
+            bg="gray.1"
+            p="sm"
+          >
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="about" element={<About />} />
+              <Route path="location" element={<Location />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="news" element={<News />} />
+            </Routes>
+            <Footer />
+          </AppShell.Main>
         </AppShell>
       </MantineProvider>
     </HashRouter>

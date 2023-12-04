@@ -9,23 +9,21 @@ export const About: FunctionComponent = () => {
       <Stack gap="md">
         <Title order={1}>About</Title>
         <Title order={3}>Our objectives are</Title>
-        <Text>
-          <List listStyleType="lower-roman">
-            <List.Item>
-              to serve the Watford Chinese community and promote its
-              relationships as well as Chinese culture.
-            </List.Item>
-            <List.Item>
-              to promote understanding, knowledge and awareness among the
-              Chinese community.
-            </List.Item>
-            <List.Item>
-              to organise employment, education, social and leisure activities
-              for the Chinese Community.
-            </List.Item>
-            <List.Item>to provide advice and assistance.</List.Item>
-          </List>
-        </Text>
+        <List listStyleType="lower-roman">
+          <List.Item>
+            to serve the Watford Chinese community and promote its relationships
+            as well as Chinese culture.
+          </List.Item>
+          <List.Item>
+            to promote understanding, knowledge and awareness among the Chinese
+            community.
+          </List.Item>
+          <List.Item>
+            to organise employment, education, social and leisure activities for
+            the Chinese Community.
+          </List.Item>
+          <List.Item>to provide advice and assistance.</List.Item>
+        </List>
         <Title order={3}>History</Title>
         <Text>
           The Association started over 30 years ago. Watford Borough Council
