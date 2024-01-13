@@ -26,7 +26,7 @@ export const ImageGallery: FunctionComponent<{ images: string[] }> = ({
         </ActionIcon>
       </Group>
       <Space h="lg" />
-      <Image src={images[imgIndex]} />
+      <Image src={images[imgIndex]} mah={800} fit="contain" />
     </Container>
   );
 };
