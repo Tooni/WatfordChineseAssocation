@@ -1,0 +1,17 @@
+.floatLeft {
+    float: left;
+    margin: 5px;
+    width: unset;
+    max-height: 400px;
+}
+
+.floatRight {
+    float: right;
+    margin: 5px;
+    width: unset;
+    max-height: 400px;
+}
+
+.article > p:not(:last-child) {
+    margin-bottom: calc(1rem);
+}
