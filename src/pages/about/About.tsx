@@ -1,6 +1,6 @@
 import { Anchor, List, Text, Stack, Title } from "@mantine/core";
 import { FunctionComponent } from "react";
-import { SetDocumentTitle } from "../../set-document-title/SetDocumentTitle";
+import { SetDocumentTitle } from "../../components/set-document-title/SetDocumentTitle";
 
 export const About: FunctionComponent = () => {
   return (

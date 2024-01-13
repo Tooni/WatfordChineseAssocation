@@ -3,13 +3,13 @@ import { AppShell, MantineProvider } from "@mantine/core";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { theme } from "./theme";
 import { FunctionComponent } from "react";
-import { Header } from "./header/Header";
-import { Footer } from "./footer/Footer";
-import { Home } from "./pages/home/Home";
+import { Header } from "./components/header/Header";
+import { Footer } from "./components/footer/Footer";
 import { Contact } from "./pages/contact/Contact";
 import { News } from "./pages/news/News";
 import { Location } from "./pages/location/Location";
 import { About } from "./pages/about/About";
+import { Gallery } from "./pages/gallery/Gallery";
 import { APP_MAX_WIDTH } from "./constants";
 
 export const App: FunctionComponent = () => {
@@ -26,8 +26,8 @@ export const App: FunctionComponent = () => {
             p="sm"
           >
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="about" element={<About />} />
+              <Route path="/" element={<About />} />
+              <Route path="gallery" element={<Gallery />} />
               <Route path="location" element={<Location />} />
               <Route path="contact" element={<Contact />} />
               <Route path="news" element={<News />} />

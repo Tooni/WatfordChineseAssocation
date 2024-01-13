@@ -1,5 +1,5 @@
 import { FunctionComponent, useEffect } from "react";
-import { APP_TITLE } from "../constants";
+import { APP_TITLE } from "../../constants";
 
 export const SetDocumentTitle: FunctionComponent<{ title?: string }> = ({ title }) => {
   useEffect(() => {
