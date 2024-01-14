@@ -12,25 +12,26 @@ export const ImageGallery: FunctionComponent<{ images: string[] }> = ({
   images,
 }) => {
   const [imgIndex, setImgIndex] = useState(0);
-  const nextImage = () => {
-    setImgIndex((index) => (index + 1) % images.length);
-  };
-  const prevImage = () => {
-    setImgIndex((index) => (index - 1 + images.length) % images.length);
-  };
-  if (images.length === 0) {
+  const numImgs = images.length;
+  if (numImgs === 0) {
     return null;
   }
+  const nextImg = () => {
+    setImgIndex((i) => (i + 1) % numImgs);
+  };
+  const prevImg = () => {
+    setImgIndex((i) => (i - 1 + numImgs) % numImgs);
+  };
   return (
     <Container>
       <Group gap="lg" justify="center">
-        <ActionIcon onClick={prevImage}>
+        <ActionIcon onClick={prevImg}>
           <Text fw={700}>←</Text>
         </ActionIcon>
         <Text w={60} style={{textAlign: 'center'}}>
           {imgIndex + 1} / {images.length}
         </Text>
-        <ActionIcon onClick={nextImage}>
+        <ActionIcon onClick={nextImg}>
           <Text fw={700}>→</Text>
         </ActionIcon>
       </Group>
