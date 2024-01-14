@@ -1,11 +1,4 @@
-import {
-  ActionIcon,
-  Container,
-  Text,
-  Image,
-  Group,
-  Space,
-} from "@mantine/core";
+import { ActionIcon, Container, Text, Image, Group } from "@mantine/core";
 import { FunctionComponent, useState } from "react";
 
 export const ImageGallery: FunctionComponent<{ images: string[] }> = ({
@@ -24,18 +17,17 @@ export const ImageGallery: FunctionComponent<{ images: string[] }> = ({
   };
   return (
     <Container>
-      <Group gap="lg" justify="center">
+      <Group gap="lg" justify="center" mb="lg">
         <ActionIcon onClick={prevImg}>
           <Text fw={700}>←</Text>
         </ActionIcon>
-        <Text w={60} style={{textAlign: 'center'}}>
+        <Text w={60} style={{ textAlign: "center" }}>
           {imgIndex + 1} / {images.length}
         </Text>
         <ActionIcon onClick={nextImg}>
           <Text fw={700}>→</Text>
         </ActionIcon>
       </Group>
-      <Space h="lg" />
       <Image src={images[imgIndex]} mah={800} fit="contain" />
     </Container>
   );
