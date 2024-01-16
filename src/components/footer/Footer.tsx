@@ -5,7 +5,7 @@ export const Footer: FunctionComponent = () => {
   return (
     <Group justify="flex-end" mt="xl">
       <Text size="xs">
-        Copyright © 2023 Watford Chinese Association. All rights reserved.
+        Copyright © 2024 Watford Chinese Association. All rights reserved.
       </Text>
     </Group>
   );
