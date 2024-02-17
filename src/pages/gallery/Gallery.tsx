@@ -8,7 +8,6 @@ export const Gallery: FunctionComponent = () => {
   return (
     <>
       <SetDocumentTitle title="Gallery" />
-      <Text>Gallery</Text>
       <ImageGallery images={IMAGES} />
     </>
   );
