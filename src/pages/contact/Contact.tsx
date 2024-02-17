@@ -7,7 +7,7 @@ export const Contact: FunctionComponent = () => {
     <>
       <SetDocumentTitle title="Contact" />
       <Stack>
-        <Title order={2}>How to contact us?</Title>
+        <Title order={1}>How to contact us?</Title>
         <Box>
           <Text>Contact our Chair, Mrs Anita Chan, at</Text>
           <List>
