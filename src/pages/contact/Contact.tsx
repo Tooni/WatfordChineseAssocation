@@ -1,4 +1,4 @@
-import { Text, Title, Box, Stack } from "@mantine/core";
+import { Text, Title, List, Box, Stack } from "@mantine/core";
 import { FunctionComponent } from "react";
 import { SetDocumentTitle } from "../../components/set-document-title/SetDocumentTitle";
 
