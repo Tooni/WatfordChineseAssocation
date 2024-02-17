@@ -8,7 +8,7 @@ export const Location: FunctionComponent = () => {
     <>
       <SetDocumentTitle title="Location" />
       <Stack>
-        <Title order={2}>Where to find us?</Title>
+        <Title order={1}>Where to find us?</Title>
         <Text>Every Tuesday from 10:30am to 3:00pm.</Text>
         <Box>
           <Text>Watford Palace Theatre</Text>
