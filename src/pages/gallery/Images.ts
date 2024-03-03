@@ -22,6 +22,10 @@ import watfordFc1 from "../../assets/watford_fc_1.jpeg";
 import watfordFc2 from "../../assets/watford_fc_2.jpeg";
 import wetherspoons from "../../assets/wetherspoons.jpeg";
 import worldCup from "../../assets/world_cup.jpeg";
+import show1BigDance from "../../assets/show_1_big_dance.jpeg";
+import show2Dragon from "../../assets/show_2_dragon.jpeg";
+import show3Dance from "../../assets/show_3_dance.jpeg";
+import show4FlowerDance from "../../assets/show_4_flower_dance.jpeg";
 
 export const IMAGES = [
   restaurant2,
@@ -48,4 +52,8 @@ export const IMAGES = [
   watfordFc2,
   wetherspoons,
   worldCup,
+  show1BigDance,
+  show2Dragon,
+  show3Dance,
+  show4FlowerDance
 ];
