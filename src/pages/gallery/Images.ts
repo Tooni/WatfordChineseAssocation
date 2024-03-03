@@ -24,8 +24,9 @@ import wetherspoons from "../../assets/wetherspoons.jpeg";
 import worldCup from "../../assets/world_cup.jpeg";
 import show1BigDance from "../../assets/show_1_big_dance.jpeg";
 import show2Dragon from "../../assets/show_2_dragon.jpeg";
-import show3Dance from "../../assets/show_3_dance.jpeg";
-import show4FlowerDance from "../../assets/show_4_flower_dance.jpeg";
+import show3Instruments from "../../assets/show_3_instruments.jpeg";
+import show4Dance from "../../assets/show_4_dance.jpeg";
+import show5FlowerDance from "../../assets/show_5_flower_dance.jpeg";
 
 export const IMAGES = [
   restaurant2,
@@ -54,6 +55,7 @@ export const IMAGES = [
   worldCup,
   show1BigDance,
   show2Dragon,
-  show3Dance,
-  show4FlowerDance
+  show3Instruments,
+  show4Dance,
+  show5FlowerDance
 ];
