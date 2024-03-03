@@ -26,7 +26,7 @@ export const News: FunctionComponent = () => {
             <List.Item>Watford Football Stadium Tour</List.Item>
           </List>
         </Stack>
-        <Image h={300} src={show1BigDance} fit="contain" />
+        <Image h={400} src={show1BigDance} fit="contain" />
       </Group>
     </>
   );
