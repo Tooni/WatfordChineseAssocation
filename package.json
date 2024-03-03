@@ -1,5 +1,5 @@
 {
-  "name": "watford-chinese-association-webiste",
+  "name": "watford-chinese-association-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mantine/core": "7.4.1",
-    "@mantine/hooks": "7.4.1",
+    "@mantine/core": "7.6.1",
+    "@mantine/hooks": "7.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,7 +27,7 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "react-router-dom": "^6.21.2",
     "postcss": "^8.4.32",
-    "postcss-preset-mantine": "1.12.3",
+    "postcss-preset-mantine": "1.13.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.10"
