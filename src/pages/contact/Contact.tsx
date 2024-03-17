@@ -11,9 +11,7 @@ export const Contact: FunctionComponent = () => {
         <Box>
           <Text>Contact our Chair, Mrs Anita Chan, at</Text>
           <List>
-            <List.Item>Phone: 07757881088</List.Item>
-            <List.Item>Email: <a href = "mailto: anitachanyl@yahoo.co.uk">anitachanyl@yahoo.co.uk</a></List.Item>
-            <List.Item>WeChat: Anitachan88</List.Item>
+            <List.Item>Phone: 07757881088 (please text)</List.Item>
           </List>
         </Box>
       </Stack>
