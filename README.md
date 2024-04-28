@@ -2,4 +2,4 @@
 
 Run locally with `pnpm dev`
 
-Deploys to watfordchineseassociation (dot) co (dot) uk
+Deploys to watfordchineseassociation ⦿ co ⦿ uk
