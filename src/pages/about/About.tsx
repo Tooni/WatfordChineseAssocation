@@ -14,16 +14,15 @@ export const About: FunctionComponent = () => {
         <Title order={3}>Our objectives are</Title>
         <List listStyleType="lower-roman">
           <List.Item>
-            to serve the Watford Chinese community and promote its relationships
-            as well as Chinese culture.
+            to serve the Watford Chinese community and promote its relationship
+            with the local community as well as Chinese culture.
           </List.Item>
           <List.Item>
             to promote understanding, knowledge and awareness among the Chinese
-            community.
+            and the local community.
           </List.Item>
           <List.Item>
-            to organise employment, education, social and leisure activities for
-            the Chinese Community.
+            to organise social and leisure activities for the Chinese community.
           </List.Item>
           <List.Item>to provide advice and assistance.</List.Item>
         </List>
@@ -69,8 +68,9 @@ export const About: FunctionComponent = () => {
           </Text>
 
           <Text>
-            It was awarded the Audentior Awards by the Watford Borough Council
-            in 2016 in recognition of its contribution to community relations.
+            Watford Celebration was awarded the Audentior Award by Watford
+            Borough Council in 2016 in recognition of its contribution to
+            community relations.
           </Text>
 
           <Text>
@@ -124,7 +124,7 @@ export const About: FunctionComponent = () => {
           </Text>
           <Title order={3}>Committee</Title>
           <Text>
-            At each AGM, the membership must elect the Association's Officers
+            At each AGM, the membership will elect the Association's Officers
             and other Committee members from amongst the Association's members.
             The Officers shall be: The Chair, Vice-Chair, Secretary and
             Treasurer who are elected to serve for a period of two years. The
@@ -134,8 +134,8 @@ export const About: FunctionComponent = () => {
         <List>
           <List.Item>Chair: Mrs Anita Chan</List.Item>
           <List.Item>Vice-Chair: Mr Jun Xia</List.Item>
-          <List.Item>Secretary: Mrs Laura Lilas</List.Item>
-          <List.Item>Treasurers: Mrs Tina Wong and Mrs Joyce Mui</List.Item>
+          <List.Item>Secretary: Mrs Laura Liles</List.Item>
+          <List.Item>Treasurer: Mrs Joyce Cheung</List.Item>
         </List>
       </Stack>
     </>
