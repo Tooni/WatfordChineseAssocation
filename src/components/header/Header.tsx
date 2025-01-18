@@ -8,7 +8,7 @@ export const Header: FunctionComponent = () => {
   return (
     <Box bg="red.8">
       <Container maw={APP_MAX_WIDTH}>
-        <Group py="lg" justify="space-between">
+        <Group py="xs" justify="space-between">
           <Logo />
           <Group align="center">
             <HeaderButton label="About" to="/" />
