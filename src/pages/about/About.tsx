@@ -133,7 +133,6 @@ export const About: FunctionComponent = () => {
         </div>
         <List>
           <List.Item>Chair: Mrs Anita Chan</List.Item>
-          <List.Item>Vice-Chair: Mr Jun Xia</List.Item>
           <List.Item>Secretary: Mrs Laura Liles</List.Item>
           <List.Item>Treasurer: Mrs Joyce Cheung</List.Item>
         </List>
