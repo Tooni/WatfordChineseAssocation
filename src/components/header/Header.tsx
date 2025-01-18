@@ -10,7 +10,7 @@ export const Header: FunctionComponent = () => {
       <Container maw={APP_MAX_WIDTH}>
         <Group py="xs" justify="space-between">
           <Logo />
-          <Group align="center">
+          <Group gap="xs" align="center">
             <HeaderButton label="About" to="/" />
             <HeaderButton label="News" to="/news" />
             <HeaderButton label="Gallery" to="/gallery" />
