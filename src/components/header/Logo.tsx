@@ -2,17 +2,18 @@ import { Image, Group, Title, Anchor } from "@mantine/core";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { FunctionComponent } from "react";
+import { APP_TITLE } from "../../constants";
 
 export const Logo: FunctionComponent = () => {
   return (
     <Anchor component={Link} to="/">
       <Group>
-        <Image src={logo} alt="Watford Chinese Association" h={100} />
+        <Image src={logo} alt={APP_TITLE} h={100} />
         <Title
           ff="Georgia,Garamond,Palatino,Times,Times New Roman,Arial"
           c="gray.2"
         >
-          Watford Chinese Association
+          {APP_TITLE}
         </Title>
       </Group>
     </Anchor>
