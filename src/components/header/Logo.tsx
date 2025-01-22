@@ -8,7 +8,7 @@ export const Logo: FunctionComponent = () => {
   return (
     <Anchor component={Link} to="/">
       <Group>
-        <Image src={logo} alt={APP_TITLE} h={100} />
+        <Image src={logo} alt={APP_TITLE} h={100} w={100} />
         <Title
           ff="Georgia,Garamond,Palatino,Times,Times New Roman,Arial"
           c="gray.2"
