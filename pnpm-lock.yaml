@@ -33,9 +33,6 @@ importers:
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.3.4(vite@6.0.11(sugarss@4.0.1(postcss@8.5.1)))
-      eslint:
-        specifier: ^9.18.0
-        version: 9.18.0
       eslint-plugin-react-hooks:
         specifier: ^5.1.0
         version: 5.1.0(eslint@9.18.0)
