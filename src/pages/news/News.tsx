@@ -1,4 +1,4 @@
-import { Group, List, Stack, Image, Anchor, Title } from "@mantine/core";
+import { Group, List, Text, Stack, Image, Anchor, Title } from "@mantine/core";
 import { FunctionComponent } from "react";
 import show1BigDance from "../../assets/show_1_big_dance.jpeg";
 import chineseNewYearCultureShow2025 from "../../assets/chinese_new_year_culture_show_2025.jpeg";
