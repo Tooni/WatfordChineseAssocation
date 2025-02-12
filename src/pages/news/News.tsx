@@ -13,7 +13,12 @@ export const News: FunctionComponent = () => {
           <Title order={1}>News</Title>
           <Title order={3}>Events</Title>
           <Text>
-            We are pleased to announce that in celebration of the Lunar New Year and the Watford Chinese Culture Show, local commercial companies, especially those on the high street, have arranged a two-day high street lighting ceremony that will take place on 29 January (the first day of the Lunar New Year) and 9 February, starting from 3pm.
+            We are pleased to announce that in celebration of the Lunar New Year
+            and the Watford Chinese Culture Show, local commercial companies,
+            especially those on the high street, have arranged a two-day high
+            street lighting ceremony that will take place on 29 January (the
+            first day of the Lunar New Year) and 9 February 2025, starting from
+            3pm.
           </Text>
           <Anchor
             href={chineseNewYearCultureShow2025}
