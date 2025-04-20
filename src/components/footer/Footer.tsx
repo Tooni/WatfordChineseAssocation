@@ -6,7 +6,8 @@ export const Footer: FunctionComponent = () => {
   return (
     <Group justify="flex-end" mt="xl">
       <Text size="xs">
-        Copyright © {currentYear} Watford Chinese Association. All rights reserved.
+        Copyright © {currentYear} Watford Chinese Association. All rights
+        reserved.
       </Text>
     </Group>
   );

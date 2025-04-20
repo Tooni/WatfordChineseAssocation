@@ -1,8 +1,9 @@
-import { Group, List, Text, Stack, Image, Anchor, Title } from "@mantine/core";
+import { Group, List, Stack, Image, Title } from "@mantine/core";
 import { FunctionComponent } from "react";
 import show1BigDance from "../../assets/show_1_big_dance.jpeg";
-import chineseNewYearCultureShow2025 from "../../assets/chinese_new_year_culture_show_2025.jpeg";
-import { SetDocumentTitle } from "../../components/set-document-title/SetDocumentTitle";
+import cny2025Second from "../../assets/cny_2025_2.jpeg";
+import cny2025Third from "../../assets/cny_2025_3.jpeg";
+import { SetDocumentTitle, Article } from "../../components";
 
 export const News: FunctionComponent = () => {
   return (
@@ -11,28 +12,33 @@ export const News: FunctionComponent = () => {
       <Group p={0} justify="space-between">
         <Stack gap="md">
           <Title order={1}>News</Title>
-          <Title order={3}>Events</Title>
-          <Text>
-            We are pleased to announce that in celebration of the Lunar New Year
-            and the Watford Chinese Culture Show, local commercial companies,
-            especially those on the high street, have arranged a two-day high
-            street lighting ceremony that will take place on 29 January (the
-            first day of the Lunar New Year) and 9 February 2025, starting from
-            3pm.
-          </Text>
-          <Anchor
-            href={chineseNewYearCultureShow2025}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image h={700} src={chineseNewYearCultureShow2025} fit="contain" />
-          </Anchor>
-          <Title order={5}>Planned</Title>
+          <Article>
+            <Article.Text>
+              To celebrate the Chinese New Year 2025 and the Watford Chinese
+              Culture Show, local business companies, especially in the High
+              Street, specially arranged two days of high street lighting
+              ceremonies, which were held on 29th January (the first day of the
+              Lunar New Year) and 9th February respectively, starting at 3 p.m.
+            </Article.Text>
+            <Article.Text>
+              地方機構尤其是商業街為了慶祝中國農曆新年和偉福中國文化節，特別安排兩天高街亮燈儀式，
+              分別是1月29日（年初一）和2月9日，時間由下午3點開始。
+            </Article.Text>
+            <Article.Text>
+              This was a local government initiative to light up the Chinese New
+              Year's Calendar, and may be the first of its kind in the UK.
+            </Article.Text>
+            <Article.Text>
+              這是地方政府為農曆新年亮燈的創舉, 這在英國可能還是首例。
+            </Article.Text>
+          </Article>
+          <Group mx="auto">
+            <Image maw={450} src={cny2025Second} />
+            <Image maw={450} src={cny2025Third} />
+          </Group>
+          <Title order={1}>Past Events</Title>
           <List listStyleType="lower-alpha">
             <List.Item>Chinese New Year Culture Show 2025</List.Item>
-          </List>
-          <Title order={5}>Past</Title>
-          <List listStyleType="lower-alpha">
             <List.Item>Dragon Boat Festival Lunch</List.Item>
             <List.Item>Southend-on-Sea Day Trip</List.Item>
             <List.Item>Logo Competition</List.Item>

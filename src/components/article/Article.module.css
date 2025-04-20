@@ -1,0 +1,10 @@
+.root > p:not(:last-child) {
+  margin-bottom: calc(1rem);
+}
+
+.floatRight {
+  float: right;
+  margin: 5px;
+  width: unset;
+  max-height: 400px;
+}

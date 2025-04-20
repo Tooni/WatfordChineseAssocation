@@ -1,6 +1,6 @@
 import { Text, Title, List, Box, Stack } from "@mantine/core";
 import { FunctionComponent } from "react";
-import { SetDocumentTitle } from "../../components/set-document-title/SetDocumentTitle";
+import { SetDocumentTitle } from "../../components";
 
 export const Contact: FunctionComponent = () => {
   return (

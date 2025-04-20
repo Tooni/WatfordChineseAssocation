@@ -27,6 +27,9 @@ import show2Dragon from "../../assets/show_2_dragon.jpeg";
 import show3Instruments from "../../assets/show_3_instruments.jpeg";
 import show4Dance from "../../assets/show_4_dance.jpeg";
 import show5FlowerDance from "../../assets/show_5_flower_dance.jpeg";
+import cny2025First from "../../assets/cny_2025_1.jpeg"
+import cny2025Second from "../../assets/cny_2025_2.jpeg"
+import cny2025Third from "../../assets/cny_2025_3.jpeg"
 
 export const IMAGES = [
   restaurant2,
@@ -57,5 +60,8 @@ export const IMAGES = [
   show2Dragon,
   show3Instruments,
   show4Dance,
-  show5FlowerDance
+  show5FlowerDance,
+    cny2025First,
+    cny2025Second,
+    cny2025Third,
 ];
