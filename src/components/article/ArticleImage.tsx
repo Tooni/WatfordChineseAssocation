@@ -8,4 +8,4 @@ export const ArticleImage: FunctionComponent<ArticleImageProps> = ({
   ...imageProps
 }) => {
   return <Image className={classes.floatRight} fit="contain" {...imageProps} />;
-}
+};

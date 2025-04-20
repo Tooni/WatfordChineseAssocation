@@ -5,4 +5,4 @@ export const ArticleText: FunctionComponent<PropsWithChildren> = ({
   children,
 }) => {
   return <Text>{children}</Text>;
-}
+};

@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@mantine/core':
-        specifier: 7.17.4
+        specifier: ^7.17.4
         version: 7.17.4(@mantine/hooks@7.17.4(react@19.1.0))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@mantine/hooks':
-        specifier: 7.17.4
+        specifier: ^7.17.4
         version: 7.17.4(react@19.1.0)
       react:
         specifier: ^19.1.0
