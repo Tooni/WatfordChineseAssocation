@@ -4,7 +4,7 @@
 
 .floatRight {
   float: right;
-  margin: 5px;
+  margin: 10px;
   width: unset;
   max-height: 400px;
 }
