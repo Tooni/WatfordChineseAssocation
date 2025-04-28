@@ -3,7 +3,7 @@ import { FunctionComponent } from "react";
 import show1BigDance from "../../assets/show_1_big_dance.jpeg";
 import cny2025Second from "../../assets/cny_2025_2.jpeg";
 import cny2025Third from "../../assets/cny_2025_3.jpeg";
-import chineseCultureShow from "../../assets/chinese_new_year_culture_show_2025_2.jpeg"
+import chineseCultureShow from "../../assets/chinese_new_year_culture_show_2025_2.jpeg";
 import { SetDocumentTitle, Article } from "../../components";
 
 export const News: FunctionComponent = () => {
@@ -13,10 +13,12 @@ export const News: FunctionComponent = () => {
       <Group p={0} justify="space-between">
         <Stack gap="md">
           <Title order={1}>News</Title>
-          <Title order={4}>28/04/2025 – Sold-out Chinese New Year Culture event a resounding success at
-          Watford Palace Theatre.</Title>
+          <Title order={4}>
+            28/04/2025 – Sold-out Chinese New Year Culture event a resounding
+            success at Watford Palace Theatre.
+          </Title>
           <Article>
-          <Article.Image src={chineseCultureShow} fit="contain" />
+            <Article.Image src={chineseCultureShow} fit="contain" />
             <Article.Text>
               Anita Chan, chair of the Watford Chinese Association said: "This
               Snake year's Chinese Culture Show was a success. The energy in the
@@ -57,7 +59,9 @@ export const News: FunctionComponent = () => {
               town so unique."
             </Article.Text>
           </Article>
-          <Title order={4}>20/04/2025 – Highstreet lighting ceremonies for Chinese New Year</Title>
+          <Title order={4}>
+            20/04/2025 – Highstreet lighting ceremonies for Chinese New Year
+          </Title>
           <Article>
             <Article.Text>
               To celebrate the Chinese New Year 2025 and the Watford Chinese
