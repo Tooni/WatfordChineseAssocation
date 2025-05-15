@@ -110,8 +110,8 @@ export const News: FunctionComponent = () => {
             </Article.Text>
           </Article>
           <Group mx="auto">
-            <Image maw={450} src={cny2025Second} />
-            <Image maw={450} src={cny2025Third} />
+            <Image w={450} maw="90vw" src={cny2025Second} />
+            <Image w={450} maw="90vw" src={cny2025Third} />
           </Group>
           <Title order={3} mt="lg">
             Past Events
@@ -127,7 +127,7 @@ export const News: FunctionComponent = () => {
             <List.Item>Chinese New Year Reunion Dinner</List.Item>
           </List>
         </Stack>
-        <Image h={400} src={show1BigDance} fit="contain" />
+        <Image h={400} maw="90vw" src={show1BigDance} fit="contain" />
       </Group>
     </>
   );
