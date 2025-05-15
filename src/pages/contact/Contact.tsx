@@ -1,6 +1,7 @@
-import { Text, Title, List, Box, Stack } from "@mantine/core";
+import { Text, Title, List, Box, Stack, Image } from "@mantine/core";
 import { FunctionComponent } from "react";
 import { SetDocumentTitle } from "../../components";
+import anitaPhoneNumber from "../../assets/anita_phone_number.png";
 
 export const Contact: FunctionComponent = () => {
   return (
@@ -11,7 +12,10 @@ export const Contact: FunctionComponent = () => {
         <Box>
           <Text>Contact our Chair, Mrs Anita Chan, at</Text>
           <List>
-            <List.Item>Phone: 07757881088 (please text)</List.Item>
+            <List.Item>
+              Phone (please text)
+              <Image src={anitaPhoneNumber} maw={140} fit="contain" />
+            </List.Item>
           </List>
         </Box>
       </Stack>

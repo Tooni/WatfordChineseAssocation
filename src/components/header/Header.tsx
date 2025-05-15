@@ -39,7 +39,7 @@ const HeaderButton: FunctionComponent<HeaderButtonProps> = ({ to, label }) => {
       variant="filled"
       bg={isActive ? "gray.3" : "red"}
     >
-      <Text size="lg" fw={700} c={isActive ? "red" : "gray.2"}>
+      <Text size="md" fw={700} c={isActive ? "red" : "gray.2"}>
         {label}
       </Text>
     </Button>

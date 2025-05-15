@@ -14,6 +14,33 @@ export const News: FunctionComponent = () => {
         <Stack gap="md">
           <Title order={1}>News</Title>
           <Title order={4}>
+            15/05/2025 – Charitable Sale on May 27th – 5月27日慈善義賣
+          </Title>
+          <Article>
+            <Article.Text>
+              We will raise funds for the club by selling Dragon Boat Festival
+              dumplings. The income generated, after deducting necessary
+              expenses, will be used for the club. The traditional rice
+              dumplings are made of sticky rice, green beans, pork, salty eggs,
+              shiitake mushrooms, chestnut, etc.
+            </Article.Text>
+            <Article.Text>
+              The price is £5 a piece. To order, please contact Bi Mei at 07741
+              857376. The Zongzi can be collected at the club on the 27th May
+              2025. They are available on a first-come, first-served basis,
+              while stocks last.
+            </Article.Text>
+            <Article.Text>
+              我們將通過出售端午節粽子為俱樂部籌集資金，收入扣除必要開支後的餘額將用於俱樂部。
+              傳統粽子：糯米、綠豆、豬肉、鹹蛋黄、香菇、栗子等。
+            </Article.Text>
+            <Article.Text>
+              價格為每隻5英鎊。如需訂購，請聯紫碧梅，電話：07741 857376。
+              粽子將於5月27日在俱樂部領取。
+            </Article.Text>
+            <Article.Text>粽子數量有限，先到先得，售完即止。</Article.Text>
+          </Article>
+          <Title order={4} mt="lg">
             28/04/2025 – Sold-out Chinese New Year Culture event a resounding
             success at Watford Palace Theatre.
           </Title>
@@ -59,7 +86,7 @@ export const News: FunctionComponent = () => {
               town so unique."
             </Article.Text>
           </Article>
-          <Title order={4}>
+          <Title order={4} mt="lg">
             20/04/2025 – Highstreet lighting ceremonies for Chinese New Year
           </Title>
           <Article>
@@ -86,7 +113,9 @@ export const News: FunctionComponent = () => {
             <Image maw={450} src={cny2025Second} />
             <Image maw={450} src={cny2025Third} />
           </Group>
-          <Title order={3}>Past Events</Title>
+          <Title order={3} mt="lg">
+            Past Events
+          </Title>
           <List listStyleType="lower-alpha">
             <List.Item>Chinese New Year Culture Show 2025</List.Item>
             <List.Item>Dragon Boat Festival Lunch</List.Item>
