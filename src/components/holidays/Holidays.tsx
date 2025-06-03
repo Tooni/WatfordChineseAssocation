@@ -1,6 +1,13 @@
-import { useState, useMemo, FunctionComponent } from "react";
+import { useState, Fragment, useMemo, FunctionComponent } from "react";
 import HolidayFinder, { HolidaysTypes } from "date-holidays";
-import { Group, Stack, List, Text, Select, ComboboxData } from "@mantine/core";
+import {
+  Group,
+  Stack,
+  Text,
+  Select,
+  ComboboxData,
+  SimpleGrid,
+} from "@mantine/core";
 
 const currentYear = new Date().getFullYear();
 
@@ -54,20 +61,28 @@ const RegionHolidayColumn: FunctionComponent<RegionHolidayColumnProps> = ({
     .sort((a, b) => a.dateObj.getTime() - b.dateObj.getTime())[0];
 
   return (
-    <List spacing="xs" size="sm" withPadding>
+    <SimpleGrid
+      cols={2}
+      w="auto"
+      ml="md"
+      verticalSpacing="xs"
+      style={{ gridTemplateColumns: "max-content max-content" }}
+    >
       {holidays.map((h) => {
         const isNext =
           upcoming && h.date === upcoming.date && h.name === upcoming.name;
         return (
-          <List.Item key={`${h.date}-${h.name}`}>
-            <Text c={isNext ? "red.9" : undefined}>
-              {isNext ? "★ " : ""}
-              {h.name} – {formatDate(h.date)}
+          <Fragment key={`date-${h.date}-${h.name}`}>
+            <Text c={isNext ? "red.9" : undefined} fw={isNext ? 700 : 400}>
+              {formatDate(h.date)}
             </Text>
-          </List.Item>
+            <Text ml="sm" c={isNext ? "red.9" : undefined}>
+              {h.name}
+            </Text>
+          </Fragment>
         );
       })}
-    </List>
+    </SimpleGrid>
   );
 };
 
