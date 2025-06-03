@@ -73,7 +73,7 @@ const RegionHolidayColumn: FunctionComponent<RegionHolidayColumnProps> = ({
           upcoming && h.date === upcoming.date && h.name === upcoming.name;
         return (
           <Fragment key={`date-${h.date}-${h.name}`}>
-            <Text span c={isNext ? "red.9" : undefined} fw={isNext ? 700 : 400}>
+            <Text span c={isNext ? "red.9" : undefined}>
               {formatDate(h.date)}
             </Text>
             <Text span ml="sm" c={isNext ? "red.9" : undefined}>
