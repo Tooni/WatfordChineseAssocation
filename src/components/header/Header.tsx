@@ -13,6 +13,7 @@ export const Header: FunctionComponent = () => {
           <Group gap="xs" align="center">
             <HeaderButton label="About" to="/" />
             <HeaderButton label="News" to="/news" />
+            <HeaderButton label="Calendar" to="/calendar" />
             <HeaderButton label="Gallery" to="/gallery" />
             <HeaderButton label="Contact" to="/contact" />
             <HeaderButton label="Location" to="/location" />

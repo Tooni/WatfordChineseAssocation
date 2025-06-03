@@ -7,11 +7,12 @@ import { APP_TITLE } from "../../constants";
 export const Logo: FunctionComponent = () => {
   return (
     <Anchor component={Link} to="/">
-      <Group>
+      <Group wrap="nowrap">
         <Image src={logo} alt={APP_TITLE} h={100} w={100} />
         <Title
           ff="Georgia,Garamond,Palatino,Times,Times New Roman,Arial"
           c="gray.2"
+          order={2}
         >
           {APP_TITLE}
         </Title>

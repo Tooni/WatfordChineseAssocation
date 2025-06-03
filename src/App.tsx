@@ -10,6 +10,7 @@ import { News } from "./pages/news/News";
 import { Location } from "./pages/location/Location";
 import { About } from "./pages/about/About";
 import { Gallery } from "./pages/gallery/Gallery";
+import { Calendar } from "./pages/calendar/Calendar";
 import { APP_MAX_WIDTH } from "./constants";
 
 export const App: FunctionComponent = () => {
@@ -30,6 +31,7 @@ export const App: FunctionComponent = () => {
               <Route path="gallery" element={<Gallery />} />
               <Route path="location" element={<Location />} />
               <Route path="contact" element={<Contact />} />
+              <Route path="calendar" element={<Calendar />} />
               <Route path="news" element={<News />} />
             </Routes>
             <Footer />

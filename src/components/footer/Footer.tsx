@@ -1,14 +1,13 @@
-import { Group, Text } from "@mantine/core";
+import { Group } from "@mantine/core";
 import { FunctionComponent } from "react";
 
+const currentYear = new Date().getFullYear();
+
 export const Footer: FunctionComponent = () => {
-  const currentYear = new Date().getFullYear();
   return (
-    <Group justify="flex-end" mt="xl">
-      <Text size="xs">
-        Copyright © {currentYear} Watford Chinese Association. All rights
-        reserved.
-      </Text>
+    <Group justify="flex-end" mt="xl" fz="xs">
+      Copyright © {currentYear} Watford Chinese Association. All rights
+      reserved.
     </Group>
   );
 };
