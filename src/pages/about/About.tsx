@@ -11,7 +11,7 @@ export const About: FunctionComponent = () => {
       <Stack gap="md">
         <Title order={1}>About</Title>
         <Title order={3}>Our objectives are</Title>
-        <List listStyleType="lower-roman">
+        <List listStyleType="lower-roman" maw="90vw">
           <List.Item>
             to serve the Watford Chinese community and promote its relationship
             with the local community as well as Chinese culture.
