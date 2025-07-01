@@ -7,6 +7,7 @@ import { Header } from "./components/header/Header";
 import { Footer } from "./components/footer/Footer";
 import { Contact } from "./pages/contact/Contact";
 import { News } from "./pages/news/News";
+import { ArticlePage } from "./pages/news/ArticlePage.tsx";
 import { Location } from "./pages/location/Location";
 import { About } from "./pages/about/About";
 import { Gallery } from "./pages/gallery/Gallery";
@@ -33,6 +34,7 @@ export const App: FunctionComponent = () => {
               <Route path="contact" element={<Contact />} />
               <Route path="calendar" element={<Calendar />} />
               <Route path="news" element={<News />} />
+              <Route path="news/:date" element={<ArticlePage />} />
             </Routes>
             <Footer />
           </AppShell.Main>
