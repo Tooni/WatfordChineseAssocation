@@ -23,7 +23,7 @@ export const News: FunctionComponent = () => {
                 <Title key={date} order={3}>
                   {date} – {article.title}
                 </Title>
-                <Text lineClamp={1}>{article.summary}</Text>
+                <Text lineClamp={1}>{article.byline}</Text>
                 <Text td="underline" fz="xs">
                   Click to read more
                 </Text>
