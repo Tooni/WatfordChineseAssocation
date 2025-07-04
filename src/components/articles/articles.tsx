@@ -12,6 +12,13 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
+  "2025-07-01": {
+    title:
+      "Chairman's Report: A Review of the Past Two Years – 主席報告：過去兩年回顧",
+    byline:
+      "Anita Chan reflects on the achievements and future plans of the Watford Chinese Association.",
+    component: <ChairmansReportOf2023To2025Article />,
+  },
   "2025-04-20": {
     title: "Highstreet lighting ceremonies for Chinese New Year",
     byline:
@@ -30,12 +37,5 @@ export const articles: Record<
     byline:
       "We will raise funds for the club by selling Dragon Boat Festival dumplings.",
     component: <CharitableSaleArticle />,
-  },
-  "2025-07-01": {
-    title:
-      "Chairman's Report: A Review of the Past Two Years – 主席報告：過去兩年回顧",
-    byline:
-      "Anita Chan reflects on the achievements and future plans of the Watford Chinese Association.",
-    component: <ChairmansReportOf2023To2025Article />,
   },
 };
