@@ -39,7 +39,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             Over the past two years, the Watford Chinese Association has made
             notable footsteps in enhancing our organization and outreach:
           </Text>
-          <List maw="95%" spacing="sm" mt="sm">
+          <List maw="90%" spacing="sm" mt="sm">
             <List.Item>
               Chinese New Year Culture Show 2024 & 2025: A monumental
               achievement has been the successful organization of the Chinese
@@ -79,7 +79,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             members. We've also successfully hosted a vibrant array of cultural
             celebrations and social events:
           </Text>
-          <List maw="95%" spacing="sm" mt="sm" listStyleType="lower-alpha">
+          <List maw="90%" spacing="sm" mt="sm" listStyleType="lower-alpha">
             <List.Item>
               Dragon Boat Festival: This has become a beloved tradition. On 27th
               June 2023, we hosted a luncheon that attracted 60 members at a
@@ -124,7 +124,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             <List.Item>
               Exciting Day and Short Trips: To broaden our horizons and provide
               opportunities for leisure and exploration, we organized:
-              <List maw="95%" spacing="xs" mt={4}>
+              <List maw="90%" spacing="xs" mt={4}>
                 <List.Item>
                   A day trip to Southend-on-Sea on 21st August 2023.
                 </List.Item>
@@ -148,7 +148,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             significantly strengthened its links with the wider local community
             and key organizations:
           </Text>
-          <List maw="95%" spacing="sm" mt="sm" listStyleType="upper-alpha">
+          <List maw="90%" spacing="sm" mt="sm" listStyleType="upper-alpha">
             <List.Item>
               Collaborations with Local Community Groups: We actively
               participated in the "Connected Communities" event on 5th May 2024,
@@ -165,7 +165,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               Close Relationships with Local Councils and Organizations: We have
               strong working relationships with crucial local entities,
               including:
-              <List maw="95%" spacing="xs" listStyleType="lower-roman" mt={4}>
+              <List maw="90%" spacing="xs" listStyleType="lower-roman" mt={4}>
                 <List.Item>
                   Watford Palace Theatre: This partnership has been instrumental
                   in providing a consistent venue for our weekly classes and
@@ -201,7 +201,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
           <Title order={4} mt="lg" mb="sm">
             Distinguished Visitors to the Club
           </Title>
-          <List maw="95%" spacing="sm">
+          <List maw="90%" spacing="sm">
             <List.Item>
               MP Dean Russell visited us on 1st August 2023, demonstrating
               political recognition of our work.
@@ -227,7 +227,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
           <Title order={4} mt="lg" mb="sm">
             Upcoming Projects
           </Title>
-          <List maw="95%" spacing="xs" listStyleType="decimal" mb="lg">
+          <List maw="90%" spacing="xs" listStyleType="decimal" mb="lg">
             <List.Item>Youth club summer activities</List.Item>
             <List.Item>Day trip in July</List.Item>
             <List.Item>Mid autumn festival celebration</List.Item>
@@ -269,7 +269,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             Association）在加強自身組織和對外拓展方面取得了顯著進展：
           </Text>
           <List
-            maw="95%"
+            maw="90%"
             spacing="sm"
             mt="sm"
             listStyleType="trad-chinese-informal"
@@ -292,7 +292,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             我們每周二在偉福皇宮劇院（Watford Palace Theatre）
             的定期聚會一直是協會活動的重要基石。這些課程提供多元化的內容，包括普通話、珠算、健身和舞蹈，為會員提供了學習和社交互動的機會。此外，每個月的第一周的活動，包括健康講座和生日派對，這些活動有助於交流信息和慶祝會員生日。我們還舉辦了一系列豐富多彩的文化慶祝和社交節目：
           </Text>
-          <List maw="95%" spacing="sm" mt="sm" listStyleType="lower-alpha">
+          <List maw="90%" spacing="sm" mt="sm" listStyleType="lower-alpha">
             <List.Item>
               端午節：這已成為一項深受喜愛的傳統。2023年6月27日，我們在一家中餐館舉辦了午餐會，吸引了60名會員。2024年6月11日，我們延續了這一傳統並採用了「帶菜分享」的形式，以鼓勵更廣泛的會員參與。值得一提的是，我們還組織了端午節賣糭籌款活動，展現了我們對社區支持和未來事業的承諾。
             </List.Item>
@@ -318,7 +318,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             </List.Item>
             <List.Item>
               精彩的一日遊和短途旅行：為了拓寬視野並提供休閒和探索的機會，我們組織了：
-              <List maw="95%" spacing="xs" mt={4}>
+              <List maw="90%" spacing="xs" mt={4}>
                 <List.Item>
                   2023年8月21日前往濱海（Southend-on-Sea）的一日遊。
                 </List.Item>
@@ -341,7 +341,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             除了內部活動，偉福華人互助協會（Watford Chinese
             Association）還顯著加強了與更廣泛的當地社區和主要組織的聯繫：
           </Text>
-          <List maw="95%" spacing="sm" mt="sm" listStyleType="upper-alpha">
+          <List maw="90%" spacing="sm" mt="sm" listStyleType="upper-alpha">
             <List.Item>
               與當地社區團體的合作：我們積極參與了2024年5月5日的「聯結社區」活動，會員們展示了中文歌曲和古箏表演，與更廣泛的受眾分享了我們的文化。我們還參加了偉福香料協會（Watford
               Spiced）的活動。
@@ -351,7 +351,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             </List.Item>
             <List.Item>
               與地方議會和組織的密切關係：我們與重要的當地實體保持著密切的合作關係，包括：
-              <List maw="95%" spacing="xs" mt={4} listStyleType="lower-roman">
+              <List maw="90%" spacing="xs" mt={4} listStyleType="lower-roman">
                 <List.Item>
                   偉福皇宮劇院（Watford Palace
                   Theatre）：這種合作關係為我們每周的課程和年度文化匯演提供了穩定的場地支持。
@@ -402,7 +402,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
           <Title order={3} mt="lg" mb="sm">
             即將開展的項目
           </Title>
-          <List maw="95%" spacing="xs" listStyleType="decimal" mb="lg">
+          <List maw="90%" spacing="xs" listStyleType="decimal" mb="lg">
             <List.Item>青年俱樂部夏季活動</List.Item>
             <List.Item>七月一日遊</List.Item>
             <List.Item>中秋節慶祝活動</List.Item>
