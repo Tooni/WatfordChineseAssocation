@@ -48,14 +48,14 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               audience. This highly popular event has become an important and
               celebrated annual fixture within the local council's cultural
               calendar, significantly raising our profile and promoting Chinese
-              culture in Watford. (photo)
+              culture in Watford.
             </List.Item>
             <List.Item>
               Logo Design Competition: On 27th August 2023, we successfully
               organized a Logo Design Competition. This initiative not only
               engaged our community creatively but also resulted in a new,
               distinctive logo that truly represents the identity and spirit of
-              the Watford Chinese Association. (photo)
+              the Watford Chinese Association.
             </List.Item>
             <List.Item>
               Website Launch: We have successfully launched our official
@@ -87,11 +87,11 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               and adopted a format of "bringing a dish to share" to encourage
               even greater community participation. Remarkably, we also
               organized a Dragon Boat Festival Fundraiser, demonstrating our
-              commitment to community support and future endeavours. (photos)
+              commitment to community support and future endeavours.
             </List.Item>
             <List.Item>
               Mid-Autumn Festival: We celebrated this significant cultural event
-              annually at a different Chinese restaurant. (photos)
+              annually at a different Chinese restaurant.
             </List.Item>
             <List.Item>
               Christmas Celebrations: Our festive gatherings included "The Moon
@@ -104,18 +104,18 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               February 2024. In 2025, we enjoyed a Chinese New Year Eve event
               featuring traditional snacks and Chinese songs on 28th January,
               followed by a Chinese New Year lunch at a Chinese restaurant on
-              3rd February. (photos)
+              3rd February.
             </List.Item>
             <List.Item>
               Elderly Members' Club Anniversary Celebration: This special event
               on 5th March 2024, saw members bringing dishes to share, fostering
-              a wonderful sense of friendship. (photos)
+              a wonderful sense of friendship.
             </List.Item>
             <List.Item>
               Cultural Workshops: We enriched our members' experiences with a
               Guzheng Music mini-concert on 9th April 2024, and a Paper Cutting
               workshop on 14th January 2025, showcasing traditional Chinese
-              arts. (photos)
+              arts.
             </List.Item>
             <List.Item>
               Royal Albert Hall Concert: A memorable outing on 21st December
@@ -134,7 +134,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
                 <List.Item>Tulleys Tulip Fields in London Colney</List.Item>
                 <List.Item>
                   A short-trip to Isle of Wright, Chester & Liverpool, offering
-                  a deeper dive into another vibrant UK cities. (photos)
+                  a deeper dive into another vibrant UK cities.
                 </List.Item>
               </List>
             </List.Item>
@@ -154,7 +154,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               participated in the "Connected Communities" event on 5th May 2024,
               where our members showcased Chinese songs and Guzheng
               performances, sharing our culture with a broader audience. We also
-              attended an event held by Watford Spiced. (photo)
+              attended an event held by Watford Spiced.
             </List.Item>
             <List.Item>
               Valuable Donations: We sincerely appreciate the support received
@@ -167,13 +167,11 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
               including:
               <List maw="95%" spacing="xs" listStyleType="lower-roman" mt={4}>
                 <List.Item>
-                  {" "}
                   Watford Palace Theatre: This partnership has been instrumental
                   in providing a consistent venue for our weekly classes and
                   yearly culture show.
                 </List.Item>
                 <List.Item>
-                  {" "}
                   W3RT CVS (Watford & Three Rivers Trust for Voluntary Service):
                   A source of financial support.
                 </List.Item>
@@ -185,7 +183,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
                 <List.Item>
                   The Frank Soo Foundation: This partnership reflects our
                   commitment to promoting shared heritage and community values
-                  especially during our annual Lunar New Year Party. (photo)
+                  especially during our annual Lunar New Year Party.
                 </List.Item>
                 <List.Item>
                   The Watford Football Stadium: A key provider of venue support.
@@ -194,7 +192,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
                   BID (Watford Business Improvement District): Partnership for
                   high street lighting to promote Chinese New Year and our
                   Culture Show. We are looking forward to the cultural party at
-                  the Watford Fringe Festival in June. (photo)
+                  the Watford Fringe Festival in June.
                 </List.Item>
               </List>
             </List.Item>
@@ -206,12 +204,12 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
           <List maw="95%" spacing="sm">
             <List.Item>
               MP Dean Russell visited us on 1st August 2023, demonstrating
-              political recognition of our work. (photo)
+              political recognition of our work.
             </List.Item>
             <List.Item>
               Curator from Watford Museum visited on 30th April 2024, to discuss
               the Watford Museum Community Curation Panel Project, opening
-              avenues for cultural preservation and display. (photo)
+              avenues for cultural preservation and display.
             </List.Item>
             <List.Item>
               Representatives from NHS Hertfordshire and West Essex engaged with
@@ -222,7 +220,7 @@ export const ChairmansReportOf2023To2025Article: FunctionComponent = () => {
             <List.Item>
               Members of Hertfordshire Constabulary visited on 13th May 2025,
               strengthening our relationship with local law enforcement and
-              ensuring the safety and wellbeing of our members. (photo)
+              ensuring the safety and wellbeing of our members.
             </List.Item>
           </List>
 

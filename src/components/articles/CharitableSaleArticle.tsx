@@ -11,7 +11,7 @@ export const CharitableSaleArticle: FunctionComponent = () => (
         dumplings. The income generated, after deducting necessary expenses,
         will be used for the club. The traditional rice dumplings are made of
         sticky rice, green beans, pork, salty eggs, shiitake mushrooms,
-        chestnut, etc.{" "}
+        chestnut, etc.
       </Article.Text>
       <Article.Text>
         The price is £5 a piece. To order, please contact Bi Mei at
@@ -21,7 +21,7 @@ export const CharitableSaleArticle: FunctionComponent = () => (
       </Article.Text>
       <Article.Text>
         我們將通過出售端午節粽子為俱樂部籌集資金，收入扣除必要開支後的餘額將用於俱樂部。
-        傳統粽子：糯米、綠豆、豬肉、鹹蛋黄、香菇、栗子等。{" "}
+        傳統粽子：糯米、綠豆、豬肉、鹹蛋黄、香菇、栗子等。
       </Article.Text>
       <Article.Text>
         價格為每隻5英鎊。如需訂購，請聯紫碧梅，電話：
