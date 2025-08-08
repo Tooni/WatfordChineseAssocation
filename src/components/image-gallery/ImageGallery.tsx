@@ -21,7 +21,7 @@ export const ImageGallery: FunctionComponent<{ images: string[] }> = ({
         <ActionIcon onClick={prevImg}>
           <Text fw={700}>←</Text>
         </ActionIcon>
-        <Text w={60} style={{ textAlign: "center" }}>
+        <Text w={70} style={{ textAlign: "center" }}>
           {imgIndex + 1} / {images.length}
         </Text>
         <ActionIcon onClick={nextImg}>
