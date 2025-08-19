@@ -30,6 +30,8 @@ import show5FlowerDance from "../../assets/show_5_flower_dance.jpeg";
 import cny2025First from "../../assets/cny_2025_1.jpeg";
 import cny2025Second from "../../assets/cny_2025_2.jpeg";
 import cny2025Third from "../../assets/cny_2025_3.jpeg";
+import bathTrip1 from "../../assets/bath_trip_1.jpeg";
+import bathTrip2 from "../../assets/bath_trip_2.jpeg";
 
 export const IMAGES = [
   restaurant2,
@@ -64,4 +66,6 @@ export const IMAGES = [
   cny2025First,
   cny2025Second,
   cny2025Third,
+  bathTrip1,
+  bathTrip2,
 ];
