@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { HighstreetLightingArticle } from "./HighstreetLightingArticle";
 import { ChineseCultureSuccessArticle } from "./ChineseCultureSuccessArticle";
 import { CharitableSaleArticle } from "./CharitableSaleArticle";
+import { BathTripArticle } from "./BathTripArticle.tsx";
 import { ChairmansReportOf2023To2025Article } from "./ChairmansReportOf2023To2025Article.tsx";
 
 export const articles: Record<
@@ -12,6 +13,12 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
+  "2025-07-10": {
+    title: "WCA Day Trip to Bath",
+    byline:
+      "The Association organized a day trip to the historic city of Bath.",
+    component: <BathTripArticle />,
+  },
   "2025-07-01": {
     title:
       "Chairman's Report: A Review of the Past Two Years – 主席報告：過去兩年回顧",
