@@ -4,6 +4,7 @@ import { ChineseCultureSuccessArticle } from "./ChineseCultureSuccessArticle";
 import { CharitableSaleArticle } from "./CharitableSaleArticle";
 import { BathTripArticle } from "./BathTripArticle.tsx";
 import { ChairmansReportOf2023To2025Article } from "./ChairmansReportOf2023To2025Article.tsx";
+import { ChineseNewYearCultureShow2026 } from "./ChineseNewYearCultureShow2026.tsx";
 
 export const articles: Record<
   string,
@@ -13,6 +14,13 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
+  "2026-01-09": {
+    title:
+      "Announcing the Chinese New Year Culture Show 2026, taking place on the 15th of February",
+    byline:
+      "The show will take place on February 15th 2026 at the Watford Palace Theatre.",
+    component: <ChineseNewYearCultureShow2026 />,
+  },
   "2025-07-10": {
     title: "WCA Day Trip to Bath",
     byline:
