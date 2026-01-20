@@ -83,8 +83,8 @@ export const About: FunctionComponent = () => {
             <Anchor href="https://supportedliving.hertfordshire.gov.uk/Services/10545/The-Barn-Watford">
               The Barn
             </Anchor>{" "}
-            in Watford lets us have use of their facilities every Tuesday from 10:30 am
-            to 3:00 pm., for which we are thankful.
+            in Watford lets us have use of their facilities every Tuesday from
+            10:30 am to 3:00 pm., for which we are thankful.
           </Article.Text>
           <Article.Text>
             The Association organise lunches and dinners for the major festivals
