@@ -11,7 +11,7 @@ export const Location: FunctionComponent = () => {
         <Title order={1}>Where to find us?</Title>
         <Text>Every Tuesday from 10:30am to 3:00pm.</Text>
         <Box>
-          <Text>The Barn</Text>
+          <Text>Watford Palace Workshop (The Barn)</Text>
           <Text>1 Watford House Ln</Text>
           <Text>Watford</Text>
           <Text>WD17 1BJ</Text>

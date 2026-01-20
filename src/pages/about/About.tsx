@@ -81,7 +81,7 @@ export const About: FunctionComponent = () => {
             The activities include: Putonghua, calligraphy, dancing, singing,
             chi gong, health talks and exercises. We are fortunate that the{" "}
             <Anchor href="https://supportedliving.hertfordshire.gov.uk/Services/10545/The-Barn-Watford">
-              The Barn
+              Watford Palace Workshop (The Barn)
             </Anchor>{" "}
             in Watford lets us have use of their facilities every Tuesday from
             10:30 am to 3:00 pm., for which we are thankful.
