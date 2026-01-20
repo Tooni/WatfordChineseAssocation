@@ -80,10 +80,10 @@ export const About: FunctionComponent = () => {
           <Article.Text>
             The activities include: Putonghua, calligraphy, dancing, singing,
             chi gong, health talks and exercises. We are fortunate that the{" "}
-            <Anchor href="https://watfordpalacetheatre.co.uk/">
-              Watford Palace Theatre
+            <Anchor href="https://supportedliving.hertfordshire.gov.uk/Services/10545/The-Barn-Watford">
+              The Barn
             </Anchor>{" "}
-            let us have free use of their facilities every Tuesday from 10:30 am
+            in Watford lets us have use of their facilities every Tuesday from 10:30 am
             to 3:00 pm., for which we are thankful.
           </Article.Text>
           <Article.Text>
