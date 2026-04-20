@@ -36,11 +36,5 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.0",
     "vite": "^8.0.9"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "@rolldown/binding-darwin-arm64"
-    ]
   }
 }
