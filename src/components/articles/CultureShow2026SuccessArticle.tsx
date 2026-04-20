@@ -36,7 +36,9 @@ export const CultureShow2026SuccessArticle: FunctionComponent = () => (
     </Text>
     <Text fw={600}>Distinguished guests included:</Text>
     <List spacing="xs">
-      <List.Item>Ms. Marion Brown MBE DL, Deputy Lieutenant of Hertfordshire.</List.Item>
+      <List.Item>
+        Ms. Marion Brown MBE DL, Deputy Lieutenant of Hertfordshire.
+      </List.Item>
       <List.Item>
         Ms. Wang Binbin and Ms. Qiu Chenxin, Directors of the Chinese Embassy
         Consular Section.
@@ -56,6 +58,7 @@ export const CultureShow2026SuccessArticle: FunctionComponent = () => (
       cultural calendar, the evening set a hopeful, vibrant tone for the year
       ahead.
     </Text>
+    <Text>Several photographs from the event can be seen below:</Text>
     <ImageGallery images={galleryImages} />
   </Stack>
 );

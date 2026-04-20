@@ -5,6 +5,7 @@ import { CharitableSaleArticle } from "./CharitableSaleArticle";
 import { BathTripArticle } from "./BathTripArticle.tsx";
 import { ChairmansReportOf2023To2025Article } from "./ChairmansReportOf2023To2025Article.tsx";
 import { ChineseNewYearCultureShow2026 } from "./ChineseNewYearCultureShow2026.tsx";
+import { CultureShow2026SuccessArticle } from "./CultureShow2026SuccessArticle";
 
 export const articles: Record<
   string,
@@ -14,6 +15,13 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
+  "2026-04-20": {
+    title:
+      "10th Annual Chinese New Year Culture Show celebrates the Year of the Horse",
+    byline:
+      "A sold-out audience of 600 celebrated traditional Chinese arts and Watford's multicultural spirit.",
+    component: <CultureShow2026SuccessArticle />,
+  },
   "2026-01-09": {
     title:
       "Announcing the Chinese New Year Culture Show 2026, taking place on the 15th of February",
