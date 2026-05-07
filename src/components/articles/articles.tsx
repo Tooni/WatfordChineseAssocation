@@ -16,7 +16,7 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
-  "2026-02-17": {
+  "2026-05-07": {
     title: "Highstreet lighting ceremonies for Chinese New Year 2026",
     byline:
       "Watford Town Centre BID arranged two days of high street lighting ceremonies to celebrate Chinese New Year.",
