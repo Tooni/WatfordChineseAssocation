@@ -4,7 +4,7 @@ import { Article } from "../article/";
 import cny2025Second from "../../assets/cny_2025_2.jpeg";
 import cny2025Third from "../../assets/cny_2025_3.jpeg";
 
-export const HighstreetLightingArticle: FunctionComponent = () => (
+export const HighstreetLighting2025Article: FunctionComponent = () => (
   <>
     <Article>
       <Article.Text>

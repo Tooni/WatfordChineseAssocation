@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
-import { HighstreetLightingArticle } from "./HighstreetLightingArticle";
+import { HighstreetLighting2025Article } from "./HighstreetLighting2025Article.tsx";
 import { ChineseCultureSuccessArticle } from "./ChineseCultureSuccessArticle";
 import { CharitableSaleArticle } from "./CharitableSaleArticle";
 import { BathTripArticle } from "./BathTripArticle.tsx";
 import { ChairmansReportOf2023To2025Article } from "./ChairmansReportOf2023To2025Article.tsx";
 import { ChineseNewYearCultureShow2026 } from "./ChineseNewYearCultureShow2026.tsx";
 import { CultureShow2026SuccessArticle } from "./CultureShow2026SuccessArticle";
+import { HighstreetLighting2026Article } from "./HighstreetLighting2026Article";
 
 export const articles: Record<
   string,
@@ -15,6 +16,12 @@ export const articles: Record<
     component: ReactNode;
   }
 > = {
+  "2026-02-17": {
+    title: "Highstreet lighting ceremonies for Chinese New Year 2026",
+    byline:
+      "Watford Town Centre BID arranged two days of high street lighting ceremonies to celebrate Chinese New Year.",
+    component: <HighstreetLighting2026Article />,
+  },
   "2026-04-20": {
     title:
       "10th Annual Chinese New Year Culture Show celebrates the Year of the Horse",
@@ -43,10 +50,10 @@ export const articles: Record<
     component: <ChairmansReportOf2023To2025Article />,
   },
   "2025-04-20": {
-    title: "Highstreet lighting ceremonies for Chinese New Year",
+    title: "Highstreet lighting ceremonies for Chinese New Year 2025",
     byline:
       "Local business companies arranged two days of high street lighting ceremonies.",
-    component: <HighstreetLightingArticle />,
+    component: <HighstreetLighting2025Article />,
   },
   "2025-04-28": {
     title:
